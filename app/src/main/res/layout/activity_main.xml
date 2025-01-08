@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0sp"
+        android:text="התראות מתוזמנות!"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:gravity="center"
+         />
+
+    <Button
+        android:id="@+id/two_seconds"
+        android:layout_width="wrap_content"
+        android:layout_height="0sp"
+        android:text="עוד 2 שניות"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/five_seconds"
+        android:layout_width="wrap_content"
+        android:layout_height="0sp"
+        android:text="עוד 5 שניות"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/thirty_seconds"
+        android:layout_width="wrap_content"
+        android:layout_height="0sp"
+        android:text="עוד 30 שניות"
+        android:layout_weight="1"/>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
